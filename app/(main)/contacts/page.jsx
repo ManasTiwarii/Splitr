@@ -12,6 +12,7 @@ import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 import { AvatarImage } from "@/components/ui/avatar";
 import CreateGroupModal from "./components/create-group-modal";
 import { useRouter, useSearchParams } from "next/navigation";
+import { Suspense } from "react";
 
 const ContactsPage = () => {
   const [isCreateGroupModelOpen, setIsCreateGroupModelOpen] = useState("false");
